@@ -9,7 +9,7 @@ It has no use other than showcasing a minimal implementation of an Electrode Nat
 For example calling `ern publish-container` using this publisher, as follow :
 
 ```shell 
-$ ern publish-container /path/to/android/container -p dummy --u dummy-url -v 0.0.1 -c '{"dummy-key":"dummy-value"}'
+$ ern publish-container --containerPath /path/to/android/container --publisher dummy --url dummy-url --version 0.0.1 --platform android --extra '{"dummy-key":"dummy-value"} '
 ```
 
 Will output the following :
