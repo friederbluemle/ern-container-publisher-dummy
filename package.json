@@ -6,9 +6,9 @@
   "keywords": [
     "ern-container-publisher"
   ],
-  "repository" : { 
-    "type" : "git", 
-    "url" : "https://github.com/electrode-io/ern-container-publisher-dummy.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/electrode-io/ern-container-publisher-dummy.git"
   },
   "license": "Apache-2.0"
 }

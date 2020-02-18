@@ -2,19 +2,28 @@
 
 This publisher will just log the configuration it was called with.
 
-It has no use other than showcasing a minimal implementation of an Electrode Native Container publisher, which can be used as a reference to create a Container publiser.
+It has no use other than showcasing a minimal implementation of an Electrode
+Native Container publisher, which can be used as a reference to create a
+Container publisher.
 
-**Requires ern >= 0.19.0**
+## Prerequisites
 
-For example calling `ern publish-container` using this publisher, as follow :
+ern >= 0.19.0
 
-```shell 
-$ ern publish-container --containerPath /path/to/android/container --publisher dummy --url dummy-url --version 0.0.1 --platform android --extra '{"dummy-key":"dummy-value"} '
+## Usage
+
+```sh
+ern publish-container --containerPath /path/to/android/container \
+                      --publisher dummy \
+                      --url dummy-url \
+                      --version 0.0.1 \
+                      --platform android \
+                      --extra '{"dummy-key":"dummy-value"}'
 ```
 
-Will output the following :
+Will output the following:
 
-```
+```text
  ___ _        _               _       _  _      _   _
 | __| |___ __| |_ _ _ ___  __| |___  | \| |__ _| |_(_)_ _____
 | _|| / -_) _|  _| '_/ _ \/ _` / -_) | .` / _` |  _| \ V / -_)
